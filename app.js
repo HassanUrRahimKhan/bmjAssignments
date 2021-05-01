@@ -9,3 +9,8 @@
 //alert("Welcome to js Land "+"\n" +"Happy Coding!")
 
 //task4
+// alert("welcome to JS Land...")
+// alert("Happy Coding!" + "\n" +" " + "prevent this page to create additional dialogs")
+
+//task5
+//console.log("hello... i can run JS through my web browser's console")
