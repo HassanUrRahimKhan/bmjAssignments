@@ -212,7 +212,232 @@
 
 
             ////task 8
-var totalMarks = +prompt("Enter total marks :")
-var marksObtained = +prompt("Enter obtained marks :")
-var result = (marksObtained/totalMarks)*100
-document.write("your percentage is " + result +"%")
+// var totalMarks = +prompt("Enter total marks :")
+// var marksObtained = +prompt("Enter obtained marks :")
+// var result = (marksObtained/totalMarks)*100
+// document.write("your percentage is " + result +"%")
+
+
+
+        ////task-9
+
+//         var curr = (10*104.80)+(25*28)
+// document.write("Total currency in pkr" + curr)
+
+        ////task-10
+// var new1 = 123
+// var x = ((new1+5)*10)/2
+
+
+    ////task-11
+// var birthYear = 2000
+// var currentYear = 2021
+// var age = currentYear-birthYear
+// document.write("age is " + age)
+
+
+    ////task-12
+
+// var radius = +prompt("Enter the radius :")
+// var area = (3.142)(radius)(radius)
+// var circumference = 2*3.142*radius
+// document.write("Area is" + area)
+// document.write("circumference is " + circumference)
+
+    ////Task-13
+
+    // var snack = "shakes"
+    // var age = 21
+    // var maxAge = 100
+    // var amount = 5
+    // var need = (100-21)*5
+    // document.write("need " + need + snack + "till age " + maxAge)
+
+
+    //Chapter 9 to 11
+                    ////Task-1
+    // var a = 144
+    // document.write("The value of a is " + a + "<br>")
+
+    // document.write("The value of ++a is " + ++a + "<br>")
+
+    // document.write("The value of a++ is " + a++ + "<br>")
+
+    // document.write("The value of --a is " + --a + "<br>")
+
+    // document.write("The value of a-- is " + a-- + "<br>")
+
+                    ////TASK-2
+                      
+                    // var gender = prompt("Enter Your Gender")
+                   
+                    // if(gender==="male"){
+                    //     document.write("Good Morning Sir")}
+                    // else if(gender==="female")
+                    //     document.write("Good Morning Ma'am")
+                    // else
+                    //     document.write("Wrong Input")
+                    
+                    ////Task-3
+
+                    // var trafficInput = prompt("Enter signal color")
+
+                   
+
+                    // if(trafficInput.toLocaleLowerCase()==="red")
+                    // {
+                    //     document.write("Must Stop")
+                    // }
+                    // else if(trafficInput.toLocaleLowerCase()=="yellow")
+                    //     document.write("Ready to move")
+                    
+                    // else if(trafficInput.toLocaleLowerCase()=="green")
+                    //     document.write("GO now")
+                    
+                    // else
+                    //     document.write("Wrong input!")
+
+
+
+
+                    ////Task-4
+
+    
+                    // var a = 4;
+                    // if (++a === 5){
+                    // alert("given condition for variable a is true");
+                    // } //// Yes Alert appeared in this script
+                    
+                   
+                    // //b.
+                    //  var b = 82;
+                    // if (b++ === 83){
+                    // alert("given condition for variable b is true");
+                    // } //// alert did not generated in this script
+                //    //c.
+                //      var c = 12;
+                //     if (c++ === 13){
+                //     alert("condition 1 is true");
+                //     }
+                //     if (c === 13){
+                //     alert("condition 2 is true");
+                //     }
+                //     if (++c < 14){
+                //     alert("condition 3 is true");
+                //     }
+                //     if(c === 14){
+                //     alert("condition 4 is true");
+                //     } //// Alert appeared in this script
+                //    // d.
+                //      var materialCost = 20000;
+                //     var laborCost = 2000;
+                //     var totalCost = materialCost + laborCost;
+                //     if (totalCost === laborCost + materialCost){
+                //     alert("The cost equals");
+                //     }////Alert Appeared
+                //    // e. 
+                    // if (true){
+                    // alert("True");
+                    // }
+                    // if (false){
+                    // alert("False");
+                    // } ////Alert Appeared
+                   
+                    // //f.
+                    //  if("car" < "cat"){
+                    // alert("car is smaller than cat");
+                    // } ////Alert Appeared
+
+
+                    ////Task-6
+
+                
+                //     var in1 = +prompt("Enter the marks of 1st subject :")
+                //     var in2 = +prompt("Enter the marks of 2nd subject :")
+                //     var in3 = +prompt("Enter the marks of 3rd subject :")
+
+                //     var marksObtained = in1+in2+in3
+
+                //     var per = ((in1+in2+in3)/300)*100
+
+                //     if(per>80)
+                //         var grade = "A-one <br>Excellent"
+                //     else if(per<80&&per>70)
+                //         var grade = "A <br>Good"
+                //     else if (per < 70 && per >59)
+                //         var grade = "B <br> you need to improve"
+                //     else if (per <59 && per >50)
+                //         var grade = "C <br> Do hardwork"
+                //     else if (per<=50)
+                //         var Grade = "F <br> Sorry"
+                //     else
+                //         var grade = "Error"
+                    
+    
+
+                //    document.write("Marksheet" , "<br>")
+                //    document.write("Total Marks : 300","<br>")
+                //    document.write("Marks obtained :" + marksObtained,"<br>" )
+                //    document.write("percentage:" + per,"<br>")
+                //    document.write("Grade :" + grade,"<br>")
+
+
+
+
+                                   ////TASK-7
+
+
+
+                // var div = +prompt("Enter a Number to check it's divisibility")
+
+                // if((div%3)==0)
+                // {
+                //     document.write("Number is divisible by 3")
+                // }
+                // else if ((div%3)!=0)
+                //     document.write("Not divisible by 3")
+                // else
+                //     document.write("Error")
+                
+
+
+                            ////TASK-8
+
+                
+                // var evenOdd = +prompt("Enter a number to check whether it is even or odd :")
+
+                // if(evenOdd%2==0)
+                //     document.write("Number is even")
+                // else
+                //     document.write("Number is odd")
+
+
+
+                            ////TASK-9
+
+                // var temp = +prompt("Enter the temprature")
+
+                // if(temp>40)
+                //     document.write("It's too hot outside")
+                // else if(temp>30 && temp<40)
+                //     document.write("Today's weather is normal")
+                // else if (temp>20&&temp<30)
+                //     document.write("Today weather is cool")
+                // else
+                //     document.write("OMG todays weather is so cool")
+
+                        ////TASK-10
+
+                // var cal = +prompt("Enter first number")
+                // var cal1 = +prompt("Enter second number")
+                // var add = cal+cal1
+                // var sub = cal-cal1
+                // document.write("Multiplication is : " + cal*cal1 +"<br>")
+                // document.write("Addition is : " + add +"<br>")
+                // document.write("Division is : " + cal/cal1 +"<br>")
+                // document.write("Subtraction is : " + sub +"<br>")
+                // document.write("Remainder is " + cal%cal1)
+
+
+
+                    
