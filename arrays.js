@@ -89,3 +89,44 @@ else
 colors.splice(user,user1)
 document.write("After deletion " + colors)
 
+                            //TASK-7
+
+        var arr = [7,4,8,6,9,3,4,6,1]
+        arr.sort()
+        document.write(arr)      
+
+                        //TASK-8
+
+
+var stringArray = ["karachi","seoni","balakot","naran","lahore","islamabad"]
+
+var selectedCities = stringArray.slice(1,5)
+document.write("Before Selection" +" <br>"+ stringArray+"<br>")
+document.write("After Selection"+"<br>"+selectedCities)
+
+                        //TASK-9
+
+var cat = ["This","is","my","cat"]
+
+var con = cat[0]+" "+cat[1]+" "+cat[2]+" "+cat[3]
+document.write(con)
+
+                        //TASK-10
+
+var acces = ["keyboard","mouse","printer","inkjet","cpu"]
+document.write("Array before fifo"+acces+"<br>")
+
+for(var k=0;k<5;k++)//.length method is not working here
+{
+    document.write(acces.shift()+"<br>")
+}
+
+
+                        //TASk-11
+
+var access = ["helmet","gloves","mobile","water bottle"]
+document.write("Array before lifo"+access+"<br>")
+for(var i=0;i<4;i++)
+{
+    document.write(access.pop())
+}
