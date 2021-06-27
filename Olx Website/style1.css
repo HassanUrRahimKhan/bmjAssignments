@@ -1,0 +1,111 @@
+body{
+    margin: 0%;
+    padding: 0;
+   
+}
+.pic
+{
+    margin-top: -9px;
+    margin-left: 12px;
+}
+.container
+{
+    display: flex;
+   background-color: whitesmoke;
+}
+.bar
+{
+    margin-left: 40px;
+}
+
+.container>header
+{
+    display: flex;
+   margin-top: 12px;
+  
+    
+}
+.container> header>nav>select
+{
+    align-items: center;
+    width: 280px;
+    
+    border-color: black;
+    border-width: 2px;
+    height: 45px;
+
+}
+.container> header>nav>select:hover
+{
+    border-color: cornflowerblue;
+}
+.container>header>nav>input
+{
+    width: 700px;
+    border-color: black;
+    height: 45px;
+    border-width: 2px;
+    margin-left: 20px;
+}
+.container>header>nav>input:hover
+{
+    border-color: cornflowerblue;
+}
+
+.container> header>nav>image
+{
+    display: inline;
+}
+.container header a
+{
+    margin-left: 100px;
+   margin-top: -200px;
+
+}
+.maincards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.maincards> .cards
+{
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px solid #000;
+  padding: 0 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 200px;
+  height: 230px;
+  margin-top: 80px;
+
+   
+}
+
+  
+#links
+{
+    margin-top: 50px;
+    position: absolute;
+    right: 50%;
+}
+#links > a
+{
+    font-size: 18px;
+    color: black;
+    border: 2px solid rgb(7, 77, 80);
+    border-width: 3px;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+.maincards  .cards img
+{
+    width: 200px;
+    height: 160px;
+    margin-top: -30px;
+}

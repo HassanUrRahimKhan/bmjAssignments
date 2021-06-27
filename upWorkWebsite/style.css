@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Frank+Ruhl+Libre&display=swap');
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+    margin-left: -30px;
+    
+   
+   
+
+  }
+  header div:hover
+  {
+      color: #4f9110;
+  }
+.navbar1
+{
+    
+    margin-top: -25px;
+  
+   
+}
+
+#frm
+{
+   
+   margin-right: 50px;
+   
+   
+}
+
+#srch-term {
+    width: 250px;
+    border-radius: 50px;
+    
+  }
+  .list
+  {
+      margin-right: 250px;
+      background-color: whitesmoke
+  }
+  .list  ul{display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    list-style-type: none;
+}
+
+  .list  ul > li>a
+  { 
+
+      color: grey;
+      text-decoration: none;
+      font-size: 15px;
+      
+      
+      
+  }
+
+  .list  ul>li>a:hover
+  {
+      color: #4f9110;
+  }
+
+  .btn
+  {
+      display: flex;
+      justify-content: space-between;
+  }
+
+ #1 > a:hover
+ {
+      color: #4f9110;
+      
+ }
+
+ .heading > h1
+ {
+    font-family: 'Cormorant Garamond', serif;
+     font-size: 85px;
+     line-height: 95px;
+     font-weight: bolder;
+     color:#02263d
+    
+ }
+ .heading
+ {
+    margin-left: 70px;
+    margin-top: 50px;
+
+ }
+
+ .para 
+ {
+     margin-left: 70px;
+     margin-top: 70px;
+    
+ }
+
+ .para > h3 p
+
+ {
+    letter-spacing: -.3px;
+    
+    font-size: 25px;
+    line-height: 45px;
+    font-weight:normal;
+    color: #063a5c;
+ }
+ .btn3
+ {
+    margin-left: 72px;
+    margin-top: 70px;
+    padding-left: -40px;
+    
+ }
+#r
+{
+    margin-left: 25px;
+    width: 140px;
+}
+#e
+{
+    width: 140px;   
+}
+ 
+.image img
+{
+    position: absolute;
+    right:340px;
+    top: 165px;
+
+}
+
+.image1 img
+{
+    position: absolute;
+    right:100px;
+    top: 400px;
+
+}
+
+.empty
+{
+    width: 100%;
+    height: 200px;
+}
+
+.clients >h4
+{
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+.talent > h1
+{
+    font-family: 'Cormorant Garamond', serif;
+     font-size: 70px;
+     font-weight: 520;
+     line-height: 95px;
+     
+     color:#02263d
+}
+
+.talent
+{
+    margin-top: 25px;
+}
+
+.heading6 > h5
+{
+    letter-spacing: -.3px;
+    
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: normal;
+    margin-top:20px ;
+}
+.cards #card
+{
+  
+   height: 330px;
+   width: 350px;
+  
+}
+
+.cards
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.cards #card:hover
+{
+    background-color: #55de40;
+}
+
+.cards .card h5
+{
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif;
+} 
+
+.cards #card p
+{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.row
+{
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.row a
+{
+    color: #55de40;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: -3.5px;
+}
+.links
+{
+    margin-top: 30px;
+    width: 30%;
+    margin-left: 83px;
+    padding-left: -100px;
+    
+}
+.links> a
+{
+    margin-left: inherit;
+    font-size: 35px;
+    color: #d4dbd3;
+    text-decoration: none;
+    
+    
+}
+
+.links>a#clr
+{
+    color:#55de40 ;
+}
+.links>a#clr:hover
+{
+    color:#3f8235 ;
+    text-decoration: none;
+}
+
+.links> a:hover
+{
+    color: #3f8235;
+    text-decoration: none;
+}
+
+.headi h1
+{
+    font-size: 65px;
+    font-family: 'Cabin', sans-serif;
+    margin-left: 170px;
+}
+
+.ass img
+{
+    position: absolute;
+    
+    right:170px;
+    top: 1576px;
+    border-radius: 9px;
+}
+
+.links2 a
+{       
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid;
+    border-color: #a2aba1 ;
+    border-radius: 10px;
+    padding: 6px;
+    text-decoration: none;
+    color:  #5a5e5a;
+    margin: 6px;
+}
+.links2
+{
+   
+    position: absolute;
+    width: 30%;
+    right: 268px;
+    top: 2000px;
+    justify-content: space-evenly;
+    
+}
+
+.links2 a:hover
+{
+    text-decoration: none;
+    color:#5a5e5a ;
+    background-color:#dae3da ;
+}
+
+#Cimage
+{
+    
+    margin-left:  80px;
+    margin-right: 80px;
+    margin-top: 200px;
+    height: 500px;
+    
+}
+
+#Cimage .card-body
+{
+    height: 500px;
+    width: 50%;
+    background-color:#15b315;
+    border-radius: 9px 0px 0px 9px;
+}
+
+#Cimage .card-body h1
+{
+    font-size: 75px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Frank Ruhl Libre', serif;
+}
+#Cimage .im img
+{
+   position: absolute;
+   left: 590.5px;
+   top: -1px;
+}
+#Cimage .para  
+{
+    color: white;
+    font-size: 20px;
+
+    margin-top: 100px;
+
+    margin-right: 70px;
+    
+    
+}
